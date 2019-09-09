@@ -13,7 +13,7 @@ function User(Name, Email, Password) {
 }
 
 function Users() {
-    let users = [];
+    const users = [];
 
     this.getUsers = () => {
         return users;
@@ -44,7 +44,7 @@ function Message(Owner, Date, Text) {
 }
 
 function Chat() {
-    let chat = [];
+    const chat = [];
 
     this.getChat = () => {
         return chat;
