@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="form">
+
+    <div class="buttonUp">
+        <button id="logIn" class="buttonUp__item">Log In</button>
+        <button id="signIn" class="buttonUp__item">Sign In</button>
+    </div>
+
+    <div class="enterData">
+
+        <input type="text" id="email"/>
+        <label for="email">Email</label>
+
+        <input type="password" id="password"/>
+        <label for="password">Password</label>
+
+        <button id="submit">Submit</button>
+
+    </div>
+</div>
+
+<script src="controller.js"></script>
+<script src="view.js"></script>
+
+<script>
+   new Controller().initPageOne();
+
+</script>
+
+</body>
+</html>
