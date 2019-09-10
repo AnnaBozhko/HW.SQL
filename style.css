@@ -6,38 +6,32 @@ body {
     overflow: hidden;
     font-family: Arial;
 }
-
-.buttonUp {
+.button-up {
     width: 250px;
     height: 30px;
     display: flex;
     flex-direction: row;
     justify-content: center;
 }
-
-.enterData {
+.enter-data {
     width: 250px;
     height: 250px;
     display: flex;
     flex-direction: column;
 }
-
-.buttonUp__item {
+.button-up__item {
     background: #5D7DFA;
     width: 30%;
     margin: 0 10px 10px 10px;
     color: white;
 }
-.buttonUp__item:hover {
+.button-up__item:hover {
     background: darkblue;
 }
-
-.buttonUp__item_submit {
+.button-up__item_submit {
     margin-top: 10px;
     margin-left: 35%;
 }
-
-
 .form {
     background: #D6EFFF;
     width: 20%;
@@ -49,7 +43,6 @@ body {
     padding-top: 100px;
     border-radius: 10px;
 }
-
 #passwordSecondSignIn {
     margin-bottom: 10px;
 }
