@@ -1,8 +1,8 @@
 body {
     width: 100%;
-    height: 1000%;
-    display: flex;
-    justify-content: center;
+    height: 100%;
+    /*display: flex;*/
+    /*justify-content: center;*/
     overflow: hidden;
     font-family: Arial;
 }
@@ -45,4 +45,31 @@ body {
 }
 #passwordSecondSignIn {
     margin-bottom: 10px;
+}
+.global {
+    display: flex;
+    flex-direction: row;
+    margin: 10px;
+    border:1px solid blacK;
+    padding: 10px;
+}
+.global__info {
+    width: 10%;
+    min-width: 200px;
+}
+.global__info_position {
+    display: flex;
+    flex-direction: column;
+
+}
+.button-up__item_size {
+    width: 100%;
+    height: 40px;
+    margin: 0;
+    text-transform: uppercase;
+    min-width: 100px;
+}
+.button-up__item_size-header {
+    width: 150px;
+    min-width: 100px;
 }
