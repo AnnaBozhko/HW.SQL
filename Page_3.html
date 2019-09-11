@@ -3,10 +3,28 @@
 <head>
     <meta charset="UTF-8">
     <title>View chat</title>
+    <link rel="stylesheet" href="./style.css"/>
 </head>
 <body>
-
-<input type="text" placeholder="write..."/>
-<button>Send</button>
+    <header class="global">
+        <div class="global__info global__info_position global__info_style">
+            <p></p>
+            <p></p>
+        </div>
+        <button class="button-up__item button-up__item_size button-up__item_size-header">Log out</button>
+    </header>
+    <main class="global">
+        <aside class="global__info global__info_position">
+            <button class="button-up__item button-up__item_size">Users</button>
+            <button class="button-up__item button-up__item_size">Chat</button>
+        </aside>
+        <div class="global__chat">
+            <div class="global__chat_window"></div>
+            <form class="global__chat_form">
+                <input class="global__chat_form-input" type="text" placeholder="Write here..."/>
+                <input class="button-up__item button-up__item_send" type="submit" value="SEND">
+            </form>
+        </div>
+    </main>
 </body>
 </html>

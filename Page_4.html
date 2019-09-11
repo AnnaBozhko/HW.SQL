@@ -6,23 +6,28 @@
     <link rel="stylesheet" href="style.css">
 </head>
 <body>
-<div class="form">
-    <div class="buttonUp">
-        <button id="logInSignIn" class="button-up__item">Log In</button>
-        <button id="signInSignIn" class="button-up__item">Sign In</button>
+    <div class="form">
+        <div class="button-up">
+            <button id="logInSignIn" class="button-up__item">Log In</button>
+            <button id="signInSignIn" class="button-up__item">Sign In</button>
+        </div>
+        <div class="enter-data">
+            <div class="enter-data__item">
+                <label for="emailSignIn">Email</label>
+                <input type="text" id="emailSignIn"/>
+            </div>
+            <div class="enter-data__item">
+                <label for="passwordSignIn">Password</label>
+                <input type="password" id="passwordSignIn"/>
+            </div>
+            <div class="enter-data__item">
+                <label for="passwordSecondSignIn">Config password</label>
+                <input type="password" id="passwordSecondSignIn"/>
+            </div>
+            <input type="submit" id="submitSignIn" class="button-up__item button-up__item_submit" value="SUBMIT" />
+        </div>
     </div>
-    <div class="enterData">
-        <label for="emailSignIn">Email</label>
-        <input type="text" id="emailSignIn"/>
-        <label for="passwordSignIn">Password</label>
-        <input type="password" id="passwordSignIn"/>
-        <label for="passwordSecondSignIn">Config password</label>
-        <input type="password" id="passwordSecondSignIn"/>
-        <button id="submitSignIn" class="button-up__item button-up__item_submit">Submit</button>
-    </div>
-</div>
-<script src="controller.js"></script>
-<script src="view.js"></script>
-<script>new Controller().initPageTwo();</script>
+    <script src="controller.js"></script>
+    <script src="view.js"></script>
 </body>
 </html>
