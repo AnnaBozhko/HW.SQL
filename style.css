@@ -4,6 +4,7 @@ body {
     overflow: hidden;
     font-family: Arial;
 }
+
 .button-up {
     width: 100%;
     height: 30px;
@@ -12,18 +13,21 @@ body {
     justify-content: center;
     margin-top: 20%;
 }
+
 .enter-data {
     width: 100%;
     height: 150px;
     display: flex;
     flex-direction: column;
 }
-.enter-data__item{
+
+.enter-data__item {
     width: 100%;
     display: flex;
     justify-content: space-between;
     margin-top: 5px;
 }
+
 .button-up__item {
     background: #5D7DFA;
     width: 30%;
@@ -31,14 +35,17 @@ body {
     margin: 0 10px 10px 10px;
     color: white;
 }
+
 .button-up__item:hover {
     background: darkblue;
 }
+
 .button-up__item_submit {
     margin-top: 10px;
     height: 30px;
     margin-left: 120px;
 }
+
 .form {
     background: #D6EFFF;
     width: 20%;
@@ -55,6 +62,7 @@ body {
 #passwordSecondSignIn {
     margin-bottom: 10px;
 }
+
 .global {
     background: #D2EAFF;
     display: flex;
@@ -63,20 +71,24 @@ body {
     margin: 10px;
     padding: 10px;
 }
+
 .global__info {
     width: 10%;
     min-width: 200px;
 }
+
 .global__info_position {
     display: flex;
     flex-direction: column;
 }
+
 .global__info_style {
     background: #fff;
     border-radius: 10px;
     padding-left: 10px;
     width: 280px;
 }
+
 .button-up__item_size {
     width: 100%;
     height: 40px;
@@ -88,6 +100,7 @@ body {
     width: 150px;
     min-width: 100px;
 }
+
 .global__table {
     width: 80%;
     margin-left: 5%;
@@ -95,11 +108,13 @@ body {
     border-right: 1px solid #6AABFA;
     border-left: 1px solid #6AABFA;
 }
+
 .global__table_cell {
     width: 30%;
     text-align: center;
     border-bottom: 1px solid #6AABFA;
 }
+
 .global__table_first-cell {
     width: 5%;
     text-align: center;
@@ -111,16 +126,19 @@ body {
     border: 1px solid #000;
     height: 50px;
 }
+
 .global__table_row {
     border: 1px solid #000;
     background: #fff;
     height: 40px;
 }
+
 .global__chat {
     width: 80%;
     margin-right: 5%;
     margin-left: 5%;
 }
+
 .global__chat_window {
     width: 100%;
     height: 100px;
@@ -128,18 +146,21 @@ body {
     background-size: cover;
     max-height:500px;
 }
+
 .global__chat_form {
     width: 100%;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
 }
+
 .button-up__item_send {
     width:10%;
     min-width: 100px;
     height: 30px;
     margin: 0;
 }
+
 .global__chat_form-input {
     width: 90%;
 }
