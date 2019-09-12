@@ -1,20 +1,32 @@
 function View() {
-
-    this.emailEnter = document.getElementById("email");
-    this.passwordEnter = document.getElementById("password");
-    this.submitEnter = document.getElementById("submit");
-    this.logIn = document.getElementById("logIn");
-    this.signIn = document.getElementById("signIn");
-
-
-    this.logInSignIn = document.getElementById("logInSignIn");
-    this.signInSignIn = document.getElementById("signInSignIn");
-    this.emailSignIn = document.getElementById("emailSignIn");
-    this.passwordSignIn = document.getElementById("passwordSignIn");
-    this.passwordSignInCheck = document.getElementById("passwordSecondSignIn");
-    this.submitSignIn = document.getElementById("submitSignIn");
-
-
-
-
+    this.page = 1;
+    this.logIn = null;
+    this.signIn = null;
+    this.submitLogIn = null;
+    this.submitSignIn = null;
+    this.logOut = null;
+    this.chat = null;
+    this.users = null;
+    this.send = null;
+    this.getIdPage1 = () => {
+        this.logIn = document.getElementById('logIn');
+        this.signIn = document.getElementById('signIn');
+        this.submitLogIn = document.getElementById('submitLogIn');
+    };
+    this.getIdPage2 = () => {
+        this.logOut = document.getElementById('logOut');
+        this.users = document.getElementById('users');
+        this.chat = document.getElementById('chat');
+    };
+    this.getIdPage3 = () => {
+        this.logOut = document.getElementById('logOut');
+        this.users = document.getElementById('users');
+        this.chat = document.getElementById('chat');
+        this.send = document.getElementById('send');
+    };
+    this.getIdPage4 = () => {
+        this.logIn = document.getElementById('logIn');
+        this.signIn = document.getElementById('signIn');
+        this.submitSignIn = document.getElementById('submitSignIn');
+    };
 }
