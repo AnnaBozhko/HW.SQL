@@ -1,6 +1,7 @@
 function Controller() {
     const view = new View();
     let style = null;
+
     this.init = () => {
         switch(view.page){
             case 1:
@@ -28,32 +29,36 @@ function Controller() {
                 break;
         }
     };
+
     const clickLogIn = () => {
         view.page = 1;
-        goTo1Page();
+        drawPageLogIn();
         view.logIn.onclick = null;
         style = Object.create(view.logIn.style);
         view.logIn.style.background = '#6AABFA';
         view.signIn.style = Object.create(style);
         this.init();
     };
+
     const clickSignIn = () => {
         view.page = 4;
-        goTo4Page();
+        drawPageSignIn();
         view.signIn.onclick = null;
         style = Object.create(view.signIn.style);
         view.signIn.style.background = '#6AABFA';
         view.logIn.style = Object.create(style);
         this.init();
     };
+
     const clickSubmitLogIn = () => {
         view.page = 2;
-        goToAccountPage();
+        drawAccountPage();
         this.init();
     };
+
     const clickSubmitSignIn = () => {
         view.page = 1;
-        goTo1Page();
+        drawPageLogIn();
         view.logIn.onclick = null;
         style = Object.create(view.logIn.style);
         view.logIn.style.background = '#6AABFA';
@@ -88,9 +93,8 @@ function Controller() {
     };
 
     const clickSend = () => {
-        view.page = 3;
         console.log('Clicked send');
-        this.init();
     };
 }
+
 new Controller().init();

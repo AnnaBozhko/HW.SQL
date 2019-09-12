@@ -8,22 +8,26 @@ function View() {
     this.chat = null;
     this.users = null;
     this.send = null;
+
     this.getIdPage1 = () => {
         this.logIn = document.getElementById('logIn');
         this.signIn = document.getElementById('signIn');
         this.submitLogIn = document.getElementById('submitLogIn');
     };
+
     this.getIdPage2 = () => {
         this.logOut = document.getElementById('logOut');
         this.users = document.getElementById('users');
         this.chat = document.getElementById('chat');
     };
+
     this.getIdPage3 = () => {
         this.logOut = document.getElementById('logOut');
         this.users = document.getElementById('users');
         this.chat = document.getElementById('chat');
         this.send = document.getElementById('send');
     };
+
     this.getIdPage4 = () => {
         this.logIn = document.getElementById('logIn');
         this.signIn = document.getElementById('signIn');
