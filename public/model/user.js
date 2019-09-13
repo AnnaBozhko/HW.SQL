@@ -10,8 +10,7 @@ function User(Name, Email, Password, OnLine) {
             email: email,
             password: password,
             onLine: onLine
-
-    };
+        };
     };
 };
 

@@ -138,6 +138,3 @@ function User(Name, Email, Password) {
         };
     };
 };
-
-
-
