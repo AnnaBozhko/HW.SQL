@@ -3,15 +3,14 @@
 // import {Validator} from "./validator.js";
 
 function Controller() {
-
-
     const view = new View();
     const sendData = new SendToServer();
     const model = new Model();
+    model.usersRegistrate.addUser(new User('Nikita', 'email@gmail.com', '123', 'online'));
+    model.usersRegistrate.addUser(new User('Stas', 'email1@gmail.com', '124', 'online'));
     const validator = new Validator(model.usersRegistrate);
     let style = null;
-    let table;
-
+    let table = [];
 
     this.init = () => {
         switch (view.page) {
@@ -78,8 +77,9 @@ function Controller() {
                 if (rez === 'good_reg') {
                     view.page = 2;
                     drawAccountPage();
+                    fillTable();
                     this.init();
-                    addToTable();
+                    //addToTable();
                 } else {
                     alert("Братан, да ты не зареган");
                 }
@@ -93,7 +93,6 @@ function Controller() {
         let tr = createRow('zxczxc','zxczxc','zxczxc', 'asdasd');
         table[1].append(tr);
         table[0].append(table[1]);
-
     };
 
     const clickSubmitSignIn = () => {
@@ -160,6 +159,16 @@ function Controller() {
         console.log('Clicked send');
     };
 
+    const fillTable = () => {
+        const tbody = document.getElementById('tbody');
+        let tr;
+
+        console.log(model.getUsersRegistrate());
+        for (let i = 0; i < model.usersRegistrate.getUsers().length; i++) {
+            tr = createRow('global__table_main-row', i, model.getUsersRegistrate()[i].getUser().name, model.getUsersRegistrate()[i].getUser().email);
+            tbody.append(tr);
+        }
+    };
 }
 
 

@@ -24,32 +24,31 @@ function setLabel(forArg, contentArg) {
     return label;
 }
 
-function createRow(classRow, firstContent, secondContent, thirdContent) {
+function createRow(classRow, number, name, email) {
     const tr = document.createElement('TR');
     tr.setAttribute('class', classRow);
 
     const tdNumber = document.createElement('td');
     tdNumber.setAttribute('class', 'global__table_first-cell');
-    tdNumber.textContent = firstContent; // '№';
+    tdNumber.textContent = number; // '№';
 
 
     tr.append(tdNumber);
 
     const tdName = document.createElement('td');
     tdName.setAttribute('class', 'global__table_cell');
-    tdName.textContent = secondContent; //'Users';
+    tdName.textContent = name; //'Users';
 
     tr.append(tdName);
 
     const tdEmail = document.createElement('td');
     tdEmail.setAttribute('class', 'global__table_cell');
-    tdEmail.textContent = thirdContent; //Email;
+    tdEmail.textContent = email; //Email;
 
     tr.append(tdEmail);
 
     return tr;
 }
-
 
 function createTable() {
     const table = document.createElement('TABLE');
@@ -65,6 +64,10 @@ function createTable() {
 
     const tbody = document.createElement('TBODY');
     tbody.setAttribute('id', 'tbody');
+
+    // for (let i = 0; i < model.usersRegistrate.getUsers().length) {}
+
+
     table.append(tbody);
 
     return [table, thead, tbody];
