@@ -21,7 +21,18 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/HW.SQL-2_and_3_page" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="nodejs_package_manager_path" value="npm" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\Работа\Dev\HW.SQL-sprint1\public" />
+      <recent name="D:\Работа\Dev\HW.SQL-sprint1" />
+      <recent name="D:\Работа\Dev\HW.SQL-sprint1\public\model" />
+    </key>
+
+
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -46,10 +57,41 @@
       <option name="presentableId" value="Default" />
       <updated>1568059517442</updated>
       <workItem from="1568059525116" duration="7622000" />
+
+      <workItem from="1568139305441" duration="13156000" />
+      <workItem from="1568195642608" duration="39586000" />
+      <workItem from="1568321552394" duration="16703000" />
+
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/server.js</url>
+          <line>7</line>
+          <option name="timeStamp" value="11" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/public/controller.js</url>
+          <line>22</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="15" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="javascript">
+          <url>file://$PROJECT_DIR$/server.js</url>
+          <line>39</line>
+          <properties lambdaOrdinal="-1" />
+          <option name="timeStamp" value="19" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+
+
 </project>
