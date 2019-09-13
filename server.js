@@ -13,6 +13,15 @@ app.get("/checkOnValid", function (req, res) {
     res.send("Получил, держи ответ");
 });
 
+app.post("/getVector", urlencodedParser, function (req, res) {
+    console.log(`getVector`);
+    const users = model.usersRegistrate.getUsers();
+    console.log(users);
+
+
+    res.send(users);
+});
+
 app.post("/logIn", urlencodedParser, function (req, res) {
     if (!req.body) {
         return res.sendStatus(400);
@@ -26,14 +35,14 @@ app.post("/logIn", urlencodedParser, function (req, res) {
     console.log(data.email, data.password);
 
     const newUser = {
-        email:data.email,
+        email: data.email,
         password: data.password
     };
 
     console.log(`Валидация`);
     if (!validator.isValid(data.email, data.password)) {
         console.log('is valid');
-    }else{
+    } else {
         console.log('NO valid');
     }
     console.log(`Проверка регистрации`);
@@ -116,10 +125,10 @@ function Users() {
         return users.push(user);
     };
 
-    this.show = () =>{
-        for(let i = 0 ; i < users.length; i++){
+    this.show = () => {
+        for (let i = 0; i < users.length; i++) {
             let user = users[i].getUser();
-            console.log(user.name , user.email, user.password);
+            console.log(user.name, user.email, user.password);
         }
     }
 };

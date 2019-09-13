@@ -21,7 +21,7 @@
   <component name="PropertiesComponent">
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$USER_HOME$/Desktop/HW.SQL-2_and_3_page" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
   </component>
@@ -58,6 +58,8 @@
       <workItem from="1568139305441" duration="13156000" />
       <workItem from="1568195642608" duration="39586000" />
       <workItem from="1568321552394" duration="16703000" />
+      <workItem from="1568342331484" duration="51000" />
+      <workItem from="1568376425131" duration="1501000" />
     </task>
     <servers />
   </component>
@@ -75,13 +77,11 @@
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/public/controller.js</url>
           <line>22</line>
-          <properties lambdaOrdinal="-1" />
           <option name="timeStamp" value="15" />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="javascript">
           <url>file://$PROJECT_DIR$/server.js</url>
-          <line>39</line>
-          <properties lambdaOrdinal="-1" />
+          <line>48</line>
           <option name="timeStamp" value="19" />
         </line-breakpoint>
       </breakpoints>

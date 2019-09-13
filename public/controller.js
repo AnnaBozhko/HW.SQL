@@ -79,7 +79,14 @@ function Controller() {
                     view.page = 2;
                     drawAccountPage();
                     this.init();
-                    addToTable();
+                    //addToTable();
+                    sendData.postRequest("/getVector", {x:10}, (data) =>{     // TODO через get запрос
+                        console.log(data);
+                       //const dataObj =JSON.parse(data);
+                       //  for(let i =0; i< data.length; i++){
+                       //      console.log(data[i]);
+                       //  }
+                    })
                 } else {
                     alert("Братан, да ты не зареган");
                 }
