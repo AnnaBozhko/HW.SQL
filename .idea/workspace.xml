@@ -31,6 +31,8 @@
       <recent name="D:\Работа\Dev\HW.SQL-sprint1" />
       <recent name="D:\Работа\Dev\HW.SQL-sprint1\public\model" />
     </key>
+
+
   </component>
   <component name="RunDashboard">
     <option name="ruleStates">
@@ -55,15 +57,18 @@
       <option name="presentableId" value="Default" />
       <updated>1568059517442</updated>
       <workItem from="1568059525116" duration="7622000" />
+
       <workItem from="1568139305441" duration="13156000" />
       <workItem from="1568195642608" duration="39586000" />
       <workItem from="1568321552394" duration="16703000" />
+
     </task>
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
   </component>
+
   <component name="XDebuggerManager">
     <breakpoint-manager>
       <breakpoints>
@@ -87,4 +92,6 @@
       </breakpoints>
     </breakpoint-manager>
   </component>
+
+
 </project>
