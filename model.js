@@ -23,9 +23,6 @@ function Users() {
         return users.push(user);
     };
     //      //TODO Надо ли оно
-    // this.setUsers = array => {
-    //      users = [...array];
-    // };
 }
 
 
