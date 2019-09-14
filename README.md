@@ -71,3 +71,8 @@ Sprint 5
 2.	data.getTime – шифровалка			3
 3.	window.navigate				2
 4.	WebSocket					2
+
+
+Задание 2.
+Сделать видимость online, offline 
+Добавить анимацию иконок online, offline 
